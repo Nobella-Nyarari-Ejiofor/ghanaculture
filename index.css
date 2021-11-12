@@ -65,3 +65,23 @@ background-color: antiquewhite ;
  .intro h1 {
    font-weight: bolder;
  }
+
+ .about{
+   margin-top: 1rem;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   justify-content: space-around;
+   background-color: antiquewhite;
+   padding: 3rem;
+ }
+ .heading{
+
+ }
+
+ .aboutsec{
+   height: 500px;
+   background-color: black;
+   opacity: 0.7;
+   border-radius: 25px;
+ }
