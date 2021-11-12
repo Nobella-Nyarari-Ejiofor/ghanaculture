@@ -1,0 +1,67 @@
+.navbar{
+  color: black;
+  
+
+background-color: antiquewhite ;
+}
+.logoletter{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: red;
+
+}
+.logo{
+  display: flex;
+}
+.logo p {
+  padding-top: 13px;
+  font-size: x-large;
+ 
+}
+.logoletter h1{
+  font-weight: bolder;
+  padding-left: 10px;
+  
+}
+.links ul{
+  padding-left: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.links ul{
+  list-style: none;
+  margin-left: 10rem;
+  
+}
+.links ul li a {
+  color: black;
+  font-weight: bold;
+}
+.links ul li a:hover{
+   color: red;
+}
+
+.landingpage{
+  background-image: url("./images/background3.jpeg");
+
+  background-size: cover;
+  color: white;
+  height: 600px;
+}
+ .intro{
+   background-color: black;
+   opacity: 0.8;
+   border-radius: 25px;
+   height: 200px;
+   width: 400px;
+   padding-top: 2rem;
+   margin-left: 21rem;
+   margin-top: 10rem;
+   text-align: center;
+ }
+ .intro h1 {
+   font-weight: bolder;
+ }
