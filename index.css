@@ -75,8 +75,9 @@ background-color: antiquewhite ;
    background-color: antiquewhite;
    padding: 3rem;
  }
- .heading{
-
+ .heading h1 {
+  font-weight: bolder;
+  text-decoration: underline;
  }
 
  .aboutsec{
@@ -84,4 +85,10 @@ background-color: antiquewhite ;
    background-color: black;
    opacity: 0.7;
    border-radius: 25px;
+ }
+ .aboutsec h2 {
+   text-decoration: underline;
+   font-weight: bolder;
+   padding: 1rem;
+   text-align: center;
  }
