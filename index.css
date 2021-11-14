@@ -108,3 +108,6 @@ background-color: antiquewhite ;
 .introduction h1{
   text-align: center;
 }
+.introduction p{
+font-size: large;
+}
