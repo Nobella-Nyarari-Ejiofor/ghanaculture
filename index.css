@@ -93,3 +93,11 @@ background-color: antiquewhite ;
    padding: 1rem;
    text-align: center;
  }
+.buttonstyle{
+  color: white;
+  font-weight: bolder;
+  background-color: maroon;
+  height: 50px;
+  width: 200px;
+  border-radius: 25px;
+}
