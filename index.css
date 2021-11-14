@@ -101,3 +101,10 @@ background-color: antiquewhite ;
   width: 200px;
   border-radius: 25px;
 }
+.introduction{
+  height: 700px;
+}
+
+.introduction h1{
+  text-align: center;
+}
