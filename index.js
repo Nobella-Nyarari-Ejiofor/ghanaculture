@@ -1,6 +1,6 @@
-let femaleAkanName = ["Akosua" ,"Adwoa","Abeena","Akua", "Yaa","AFua","Ama"]
-let maleAkanName =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
-let days = ["Sunday","Monday","Tuesday", "Wednesday","Thursday","Friday","Saturday"]
+let femaleAkanName = ["Akosua" ,"Adwoa","Abeena","Akua", "Yaa","AFua","Ama"];
+let maleAkanName =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+let days  = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 
 
 forms.addEventListener('submit',akanGenerate);
@@ -15,12 +15,38 @@ event.preventDefault()
 // New date of specific value user will put//
 let d = new Date(dateInput.value)
 let day = days[d.getDay()]
-if (day == "Saturday" && genderInput.value == "Male"){
-  alert("Your Akan Name is KWAME");
-} else if(day == "Saturday" && genderInput.value == "Female"){
-  alert("Your Akan Name is AMA");
+if (day == "Sunday" && genderInput.value == "Male"){
+  alert("Your Akan Name is KWASI");
+} else if(day == "Sunday" && genderInput.value == "Female"){
+  alert("Your Akan Name is Akosua");
+}else if(day == "Monday" && genderInput.value == "Male"){
+  alert("Your Akan Name is Kwadwo") 
+}else if(day == "Monday" && genderInput.value == "Female"){
+  alert("Your Akan Name is ADWOA")
+}else if(day == "Tuesday" && genderInput.value == "Male"){
+  alert("Your Akan Name is Kwabeena");
+}else if(day == "Tuesday" && genderInput.value == "Female"){
+  alert("Your Akan Name is Abeena") 
+}else if(day == "Wednesday" && genderInput.value == "Male"){
+  alert("Your Akan Name is Kwaku")
+} else if(day == "Wednesday" && genderInput.value == "Female"){
+  alert("Your Akan Name is Akua");
+}else if(day == "Thursday" && genderInput.value == "Male"){
+  alert("Your Akan Name is YAW") 
+}else if(day == "Thursday" && genderInput.value == "Female"){
+  alert("Your Akan Name is YAA")
+}else if(day == "Friday" && genderInput.value == "Male"){
+  alert("Your Akan Name is Kofi");
+}else if(day == "Friday" && genderInput.value == "Female"){
+  alert("Your Akan Name is Afua") 
+}else if(day == "Saturday" && genderInput.value == "Male"){
+  alert("Your Akan Name is Kwame")
+}else if (day == 'Saturday' && genderInput.value == "Female"){
+  alert("Your Akan Name is AMA")
 }
+
+  
 if(dateInput.value == ''){
-  alert("You are required to input your dob ")
+  alert("Error ! You are required to input your Date of Birth and Gender")
 }
 }
