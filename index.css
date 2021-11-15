@@ -103,6 +103,8 @@ background-color: antiquewhite ;
 }
 .introduction{
   height: 700px;
+  background-color: antiquewhite;
+  padding-top: 1rem;
 }
 
 .introduction h1{
