@@ -1,7 +1,7 @@
 let femaleAkanName = ["Akosua" ,"Adwoa","Abeena","Akua", "Yaa","AFua","Ama"];
 let maleAkanName =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 let days  = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
-
+console.log(days)
 
 forms.addEventListener('submit',akanGenerate);
 const dateInput = document.getElementById('date');
