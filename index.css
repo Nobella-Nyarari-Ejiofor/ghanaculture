@@ -102,7 +102,7 @@ background-color: antiquewhite ;
   border-radius: 25px;
 }
 .introduction{
-  height: 700px;
+  height: 500px;
   background-color: antiquewhite;
   margin-top: 1rem;
   text-align: center;
@@ -124,4 +124,7 @@ font-size: large;
   border-radius: 25px;
   padding: 1rem;
   margin-bottom: 10rem;
+  margin-top: 3rem;
+  font-size: x-large;
+  
 }
