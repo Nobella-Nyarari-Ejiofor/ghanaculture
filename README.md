@@ -39,7 +39,7 @@ GitHub Pages is designed to host your personal, organization, or project pages f
 
 MIT License
 
-Copyright (c) [2021] [Marcos Ochieng Otieno]
+Copyright (c) [2021] [Nobella Nyarari Ejiofor]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
