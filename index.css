@@ -104,11 +104,13 @@ background-color: antiquewhite ;
 .introduction{
   height: 700px;
   background-color: antiquewhite;
-  padding-top: 1rem;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 .introduction h1{
-  text-align: center;
+  color: black;
+  padding-left: 100px;
 }
 .introduction p{
 font-size: large;
