@@ -117,7 +117,7 @@ background-color: antiquewhite ;
 font-size: large;
 }
 .form{
-  margin-left: 22rem;
+  margin-left: 24rem;
   background-color: black;
   color: white;
   opacity: 0.7;
@@ -126,5 +126,4 @@ font-size: large;
   margin-bottom: 10rem;
   margin-top: 3rem;
   font-size: x-large;
-  
 }
