@@ -14,7 +14,7 @@ background-color: antiquewhite ;
 
 }
 .logo{
-  display: flex;
+  /* display: flex; */
 }
 .logo p {
   padding-top: 13px;
@@ -28,8 +28,8 @@ background-color: antiquewhite ;
 }
 .links ul{
   padding-left: 200px;
-  display: flex;
-  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around; */
 }
 .links ul{
   list-style: none;
@@ -46,7 +46,6 @@ background-color: antiquewhite ;
 
 .landingpage{
   background-image: url("./images/background3.jpeg");
-
   background-size: cover;
   color: white;
   height: 600px;
@@ -57,9 +56,8 @@ background-color: antiquewhite ;
    border-radius: 25px;
    height: 200px;
    width: 400px;
-   padding-top: 2rem;
-   margin-left: 21rem;
-   margin-top: 10rem;
+   margin: auto;
+   margin-top: 10rem; 
    text-align: center;
  }
  .intro h1 {
@@ -69,11 +67,7 @@ background-color: antiquewhite ;
  .about{
    margin-top: 1rem;
    color: white;
-   display: flex;
-   justify-content: space-between;
-   justify-content: space-around;
    background-color: antiquewhite;
-   padding: 3rem;
  }
  .heading h1 {
   font-weight: bolder;
@@ -81,6 +75,7 @@ background-color: antiquewhite ;
  }
 
  .aboutsec{
+   
    height: 800px;
    background-color: black;
    opacity: 0.7;
@@ -110,20 +105,19 @@ background-color: antiquewhite ;
 
 .introduction h1{
   color: black;
-  padding-left: 25rem;
+  
   text-decoration: underline;
 }
 .introduction p{
 font-size: large;
 }
 .form{
-  margin-left: 24rem;
+
   background-color: black;
   color: white;
   opacity: 0.7;
   border-radius: 25px;
   padding: 1rem;
-  margin-bottom: 10rem;
-  margin-top: 3rem;
   font-size: x-large;
+  margin: auto;
 }
