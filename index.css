@@ -1,48 +1,27 @@
-.navbar{
-  color: black;
-  
-
-background-color: antiquewhite ;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+.cart-button{
+  border: none;
 }
-.logoletter{
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
+#logo1{
+  font-family: 'Bebas Neue', cursive;
   font-size: xx-large;
-  font-weight: bold;
-  background-color: red;
+  
+}
+#logo2{
+  font-family: 'Lobster', cursive;
+  font-size: xx-large;
+}
+.navbar li a{
+  color: white;
+}
+.navbar a{
+  color: white;
+}
+.btn-success a{
+  color: white;
+  text-decoration: none;
+}
 
-}
-.logo{
-  /* display: flex; */
-}
-.logo p {
-  padding-top: 13px;
-  font-size: x-large;
- 
-}
-.logoletter h1{
-  font-weight: bolder;
-  padding-left: 10px;
-  
-}
-.links ul{
-  padding-left: 200px;
-  /* display: flex;
-  justify-content: space-around; */
-}
-.links ul{
-  list-style: none;
-  margin-left: 10rem;
-  
-}
-.links ul li a {
-  color: black;
-  font-weight: bold;
-}
-.links ul li a:hover{
-   color: red;
-}
 
 .landingpage{
   background-image: url("./images/background3.jpeg");
@@ -62,6 +41,7 @@ background-color: antiquewhite ;
  }
  .intro h1 {
    font-weight: bolder;
+   text-align: center;
  }
 
  .about{
@@ -75,7 +55,7 @@ background-color: antiquewhite ;
  }
 
  .aboutsec{
-   
+   width: 600px;
    height: 800px;
    background-color: black;
    opacity: 0.7;
@@ -97,7 +77,7 @@ background-color: antiquewhite ;
   border-radius: 25px;
 }
 .introduction{
-  height: 500px;
+  height: 600px;
   background-color: antiquewhite;
   margin-top: 1rem;
   text-align: center;
